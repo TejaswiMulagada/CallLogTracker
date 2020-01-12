@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.call"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/cicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.call.MainScreen"
+            android:label="@string/app_name"
+            android:theme="@drawable/icon" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.call.tabactivity"
+            android:label="@string/app_name"
+            android:theme="@drawable/icon" >
+            <intent-filter>
+                <action android:name="com.call.tabactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.call.IncomingCallActivity" />
+        <activity android:name="com.call.MissedCallActivity" />
+        <activity android:name="com.call.OutGoingCallActivity" />
+        <activity android:name="com.call.calllogs" />
+        <activity android:name="com.call.listofcalls" />
+        <activity android:name="com.call.chart" />
+        <activity android:name="com.call.Call" />
+        <activity android:name="com.call.MessageSending" />
+    </application>
+
+</manifest>

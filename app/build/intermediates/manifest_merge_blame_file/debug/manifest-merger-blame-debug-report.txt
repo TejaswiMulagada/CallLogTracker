@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.call"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-permission android:name="android.permission.READ_CONTACTS" />
+7-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:32:1-84
+7-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:32:18-65
+8    <uses-permission android:name="android.permission.SEND_SMS" />
+8-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:33:1-79
+8-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:33:18-60
+9    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+9-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:34:1-82
+9-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:34:18-63
+10    <uses-permission android:name="android.permission.CALL_PHONE" />
+10-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:35:1-81
+10-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:35:18-62
+11
+12    <application
+12-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:5-31:19
+13        android:debuggable="true"
+14        android:icon="@drawable/cicon"
+14-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:18-48
+15        android:label="@string/app_name" >
+15-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:49-81
+16        <activity
+16-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:7:9-13:20
+17            android:name="com.call.MainScreen"
+17-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:7:19-45
+18            android:label="@string/app_name"
+18-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:8:19-51
+19            android:theme="@drawable/icon" >
+19-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:8:52-82
+20            <intent-filter>
+20-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:9:13-12:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:10:17-69
+21-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:10:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:11:17-77
+23-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:11:27-74
+24            </intent-filter>
+25        </activity>
+26        <activity
+26-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:14:10-20:24
+27            android:name="com.call.tabactivity"
+27-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:14:20-47
+28            android:label="@string/app_name"
+28-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:15:19-51
+29            android:theme="@drawable/icon" >
+29-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:15:52-82
+30            <intent-filter>
+30-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:16:13-19:29
+31                <action android:name="com.call.tabactivity" />
+31-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:17:17-63
+31-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:17:25-60
+32
+33                <category android:name="android.intent.category.DEFAULT" />
+33-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:18:17-76
+33-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:18:27-73
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.call.IncomingCallActivity" />
+36-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:23:1-49
+36-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:23:11-47
+37        <activity android:name="com.call.MissedCallActivity" />
+37-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:24:1-47
+37-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:24:11-45
+38        <activity android:name="com.call.OutGoingCallActivity" />
+38-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:25:1-49
+38-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:25:11-47
+39        <activity android:name="com.call.calllogs" />
+39-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:26:1-37
+39-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:26:11-35
+40        <activity android:name="com.call.listofcalls" />
+40-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:27:1-40
+40-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:27:11-38
+41        <activity android:name="com.call.chart" />
+41-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:28:1-34
+41-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:28:11-32
+42        <activity android:name="com.call.Call" />
+42-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:29:1-33
+42-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:29:11-31
+43        <activity android:name="com.call.MessageSending" />
+43-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:30:1-43
+43-->/Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:30:11-41
+44    </application>
+45
+46</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout 
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<LinearLayout android:id="@+id/pie_container"
+android:layout_width="fill_parent" android:layout_height="wrap_content"
+
+android:orientation="vertical">
+</LinearLayout>
+<LinearLayout android:id="@+id/pie"
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+
+android:orientation="vertical">
+
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/xdfghdtfy" 
+android:layout_below="@+id/pie_container"
+android:textColor="#ffffff"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/sdtytryou" 
+android:layout_below="@+id/pie_container"
+android:textColor="#ffffff"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/tot" 
+android:layout_below="@+id/pie_container"
+android:textColor="#ffffff"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/income" 
+android:layout_below="@+id/pie_container"
+android:textColor="#0099FF"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/out" 
+android:layout_below="@+id/pie_container"
+android:textColor="#00FF99"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+<TextView android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+android:id="@+id/missed" 
+android:layout_below="@+id/pie_container"
+android:textColor="#FF3333"
+android:textSize="18dip"
+android:textStyle="bold">
+</TextView>
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

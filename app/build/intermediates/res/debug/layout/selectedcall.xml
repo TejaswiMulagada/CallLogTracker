@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@drawable/back">
+ <AbsoluteLayout 
+	android:id="@+id/AbsoluteLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	>
+
+<ImageView android:src="@drawable/outcall" 
+android:layout_x="0px"
+	android:layout_y="10px"
+	 android:layout_height="85px" android:layout_width="150px" android:id="@+id/call"></ImageView>
+<ImageView android:src="@drawable/envelop" 
+android:layout_x="170px"
+	android:layout_y="10px"
+	 android:layout_height="85px" android:layout_width="150px" android:id="@+id/msg"></ImageView>
+
+
+</AbsoluteLayout>
+<ListView android:id="@+id/ListView01" android:layout_width="fill_parent" android:layout_height="fill_parent"></ListView>
+</LinearLayout>
+<!-- From: file:/D:/Studies/MS/Android/AndroidProject/app/src/main/res/layout/selectedcall.xml -->

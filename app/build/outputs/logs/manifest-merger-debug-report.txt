@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:3:7-25
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:5:7-32
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:5-31:19
+	android:label
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:49-81
+	android:icon
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:6:18-48
+activity#com.call.MainScreen
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:7:9-13:20
+	android:label
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:8:19-51
+	android:theme
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:8:52-82
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:7:19-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:11:17-77
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:11:27-74
+activity#com.call.tabactivity
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:14:10-20:24
+	android:label
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:15:19-51
+	android:theme
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:15:52-82
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:14:20-47
+intent-filter#action:name:com.call.tabactivity+category:name:android.intent.category.DEFAULT
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:16:13-19:29
+action#com.call.tabactivity
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:17:17-63
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:17:25-60
+category#android.intent.category.DEFAULT
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:18:27-73
+activity#com.call.IncomingCallActivity
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:23:1-49
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:23:11-47
+activity#com.call.MissedCallActivity
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:24:1-47
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:24:11-45
+activity#com.call.OutGoingCallActivity
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:25:1-49
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:25:11-47
+activity#com.call.calllogs
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:26:1-37
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:26:11-35
+activity#com.call.listofcalls
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:27:1-40
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:27:11-38
+activity#com.call.chart
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:28:1-34
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:28:11-32
+activity#com.call.Call
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:29:1-33
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:29:11-31
+activity#com.call.MessageSending
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:30:1-43
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:30:11-41
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:32:1-84
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:32:18-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:33:1-79
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:33:18-60
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:34:1-82
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:34:18-63
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:35:1-81
+	android:name
+		ADDED from /Users/tm053990/Desktop/OldProjects/CallLogTracker/app/src/main/AndroidManifest.xml:35:18-62
